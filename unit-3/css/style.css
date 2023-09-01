@@ -1,0 +1,162 @@
+/*Add CSS styles here*/
+
+/*Styling items related to AZ county data in main.js*/
+.AZ {
+  stroke: #333;
+  stroke-width: 2px;
+}
+
+.states {
+  fill: #bbb;
+  stroke: #555;
+  stroke-width: 2px;
+}
+
+.mexico {
+  fill: #ddd;
+  stroke: #555;
+  stroke-width: 2px;
+}
+
+.az-border {
+  stroke:#444;
+  stroke-width: 5px;
+}
+
+.basemap {
+  border: 0 solid #333;
+  background-color: #D5E3FF;
+}
+
+.chart {
+  background-color: #ccc;
+}
+
+.chartTitle {
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  font-style: italic;
+}
+
+.bars {
+  stroke: #333;
+  stroke-width: 2px;
+}
+
+/*for numbers on the bars*/
+.numbers {
+  fill: #333;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.gratLines {
+  fill: none;
+  stroke: #999;
+  stroke-width: 1px;
+}
+
+.gratBackground {
+  fill: #D5E3FF;
+}
+
+.dropdown {
+  position: relative;
+  top: 0;
+  margin-left:8vw;
+  z-index: 9;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 2px;
+  border: 1px solid #999;
+  box-shadow:#d5e3ffb7 0px 0px 2px;
+}
+
+@media screen and (max-width: 600px) {
+  .dropdown {
+    margin-left:0;
+  }
+}
+
+ /*options within the dropdown*/
+option {
+  font-weight: normal;
+}
+
+.infolabel {
+  position: absolute;
+  height: auto;
+  min-width: 100px;
+  max-width: 300px;
+  color: #fff;
+  background-color: #edb200;
+  border: solid 2px #eee;
+  padding: 5px 10px;
+  margin: 0 20px 0 0;
+  z-index: 10;
+}
+
+.infolabel h3 {
+  margin: 0 20px 0 0;
+  padding: 0;
+  display: inline-block;
+  line-height: 1em;
+}
+
+/*Additional website page styling*/
+@media screen and (min-width: 768px) {
+  #foot-1 {text-align: left;}
+  #foot-2 {text-align: center;}
+  #foot-3 {text-align: right;}
+}
+
+a {
+  color: #ffda6a !important;
+}
+
+a:hover {
+  color: #edb200 !important;
+}
+
+footer a {
+  color: #94c2f1aa !important;
+}
+
+footer a:hover {
+  color: #94c2f188 !important;
+}
+
+#mapdiv {
+  text-align: center;
+}
+
+#chartdiv {
+  text-align: center;
+  position: relative;
+}
+
+#titlediv {
+  position: absolute;
+  text-align: start;
+  margin: 0.5rem 2rem 0.5rem 0.5rem;
+  z-index: 9;
+  height:auto;
+  width:inherit;
+  display: block;
+}
+
+.text-orange {
+  color: orange !important;
+}
+
+.bg-tealorange {
+  background-image: linear-gradient(to right, rgba(0, 128, 128, 0), teal, orange, rgba(255, 166, 0, 0));
+  height: 3px;
+}
+
+.bg-dark-fade {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(var(--bs-dark-rgb)), rgba(var(--bs-dark-rgb)), rgba(0, 0, 0, 0));
+}
