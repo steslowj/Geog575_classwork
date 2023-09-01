@@ -6,5 +6,4 @@ This repo contains:
 - Unit 2: A website that explores US Air Quality Index Data with Leaflet.JS
 - Unit 3: A website practicing interactive linking of visual elements with D3.JS
 
-My final project for Geog 575 is a dashboard website that explores environmental data in the Mississippi River Watershed, and is presented in its own repo: [575 Final Project](https://github.com/steslowj/2023_Geog575_FinalProject).
-
+My final project for Geog 575 is a dashboard website that explores environmental data in the Mississippi River Watershed, and is presented in its own repo: [575 Final Project](https://github.com/steslowj/Geog575_FinalProject).
